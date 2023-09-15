@@ -1,0 +1,10 @@
+References 
+I used 
+class recordings, w3schools, tutorialpoint, freecodecamp and stackoverflow for references.
+Downloaded google fonts,audio and video AI generator 
+from
+pixabay.com(video)
+voicegenerator.io(audio)
+
+Generated my favicon from
+favicon.io
