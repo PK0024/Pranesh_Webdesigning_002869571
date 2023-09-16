@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="D:\STUDIES\Web design NEU\DA-1\Favicon\favicon.ico">
+    <link rel="stylesheet" href="D:\STUDIES\Web design NEU\DA-1\CSS.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <audio id="myAudio"><source src="D:\STUDIES\Web design NEU\DA-1\Audio\synthesize.mp3" type="audio/mpeg">Your browser doesn't support audio</audio>
+    <title>My Creative Website</title>
+</head>
+<body>
+    <header>
+        <img src="D:\STUDIES\Web design NEU\DA-1\Favicon\android-chrome-192x192.png" alt="Logo">
+        <h1>Welcome to Movie Box</h1>
+        <nav>
+            <ul>
+                <li><a href="#films">Films</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#feed">Feed</a></li>  
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="films">
+        <div class="search">
+            <h2>Search Films</h2>
+            <input type="text" id="film-search" placeholder="Search for films...">
+            <button id="film-search-button">Search</button>
+        </div>
+    </section>
+    <section id="reviews">
+        <div class="search">
+            <h2>Search Reviews</h2>
+            <input type="text" id="review-search" placeholder="Search for reviews...">
+            <button id="review-search-button">Search</button>
+        </div>
+    </section>
+    <section id="feed">
+        <div class="search">
+            <h2>Search Feed</h2>
+            <input type="text" id="feed-search" placeholder="Search for news...">
+            <button id="feed-search-button">Search</button>
+        </div>
+    </section>
+    <section id="about">
+        <div class="search">
+            <h2>Click here to learn about the application</h2>
+            <button onclick="playAudio()" type="button">About
+            </button>
+            <script>
+                    var x = document.getElementById("myAudio"); 
+                    function playAudio() 
+                    {
+                        x.play();
+                    }
+            </script>
+        </div>
+    </section>
+    <section id="table">    
+            <h2>Explore Films</h2>
+            <p>This website is used to learn about films and intract with other people reviews and opinion about the film. Where you can search for films across the word, see reviews of others, search feed to learn more about the new films in the field.</p>
+            <a href ="https://northeastern.instructure.com" target="_blank">The assignment is sumbitted in this website </a>
+            <p></p>
+            <form>
+                <label for="Movie">Movie Name</label><br>
+                <input type="text" id="Movie" name="Movie"><br>
+                <label for="Review">Review movie</label><br>
+                <input type="text" id="Review" name="Review"><br>
+            </form>
+            <table class="movie-table">
+                <thead>
+                    <tr>
+                        <th>Movie Name</th>
+                        <th>Director</th>
+                        <th>Release Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Schindler's List</td>
+                        <td>Steven Spielberg</td>
+                        <td>1993</td>
+                    </tr>
+                    <tr>
+                        <td>Casino</td>
+                        <td>Martin Scorsese</td>
+                        <td>1995</td>
+                        </tr>
+                    <tr>
+                        <td>Anbe Sivam</td>
+                        <td>Sundar C</td>
+                        <td>2003</td>
+                    </tr>
+                    <tr>
+                        <td>Eega</td>
+                        <td>SS Rajamouli</td>
+                        <td>2012</td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>    
+    <section id="clip">
+        <div class="vidclp">
+        <p>Trailer of latest film is shown below</p>
+        </div>
+        <video controls loop>
+            <source src="D:\STUDIES\Web design NEU\Assignment-1\video\168811 (720p).mp4" type="video/mp4">
+            Browser didn't support your tag
+        </video>
+    </section>
+    <footer>
+        <div class="foot">
+            <p>Telephone :+1(121)34567</p>
+            <p>Mail ID&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: <a href="mailto:email.email.com">email.email.com</a></p>
+        </div>
+        <p>&copy;Movie Box 2023</p>
+    </footer>
+</body>
+</html>
