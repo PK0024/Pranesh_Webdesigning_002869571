@@ -1,0 +1,194 @@
+* {
+    -webkit-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #fefefe;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+}
+nav {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background: black;
+    margin: 0% auto;
+    font-size: 11pt;
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-weight: bold;
+    clear: both;
+    overflow: hidden;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
+}
+nav .brand {
+    float: left;
+    font-weight: bold;
+    height: inherit;
+    color: whitesmoke !important;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    line-height: inherit;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+nav ul {
+    padding: 0;
+    margin: 0 auto !important;
+    float: right;
+    max-width: 100%;
+}
+nav ul li {
+    list-style: none;
+    float: left;
+}
+nav ul li a {
+    color: white !important;
+    display: inline-block;
+    width: 100px;
+    line-height: inherit;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+nav ul li a:hover, nav ul li a:active {
+    background-color: #ddd;
+}
+
+.Port
+{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 0 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.Port input[type="text"] 
+{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #444;
+    color: #fff;
+    border-radius: 4px;
+}
+.Port button 
+{
+    background-color: #ff3c00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button 
+{
+    background-color: #363434;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+button:hover 
+{
+    background-color: #555;
+}
+.Port button:hover 
+{
+    background-color: #ff7043;
+}
+section 
+{
+    margin: 3rem;
+    padding: 3rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2
+{
+    text-align: center;
+    font-size: 80px;
+}
+h1
+{
+    text-align: center;
+    font-size: 50px;
+}
+.Port img
+{
+    width:auto px;
+    height: 200px;
+    padding:50px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.Port p
+{
+    font-weight: bold;
+    font-size: large;
+    font-style: oblique;
+}
+footer
+{
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+video
+{
+    width: 400px; 
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vidclp
+{
+    font-weight: 300;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;
+}
+.project-table 
+{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.project-table th 
+{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+.project-table td 
+{
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.project-table tr:hover 
+{
+    background-color: #ddd;
+}
+.table h2
+{
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+}
