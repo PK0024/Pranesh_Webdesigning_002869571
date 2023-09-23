@@ -8,3 +8,30 @@ There are home page, about page, project page, contact page.
 The images are added in project page.
 Then I have created extras where I have added table, link, video clip, audio clip.
 I have created footer and added Pranesh Porfolio text as tag.
+
+Tags used
+html
+head
+header
+footer
+a href
+meta
+link rel
+title
+nav
+ul
+li
+div
+h2
+section 
+button
+p
+form
+table
+tr
+th
+td
+thead
+tbody
+source 
+input
