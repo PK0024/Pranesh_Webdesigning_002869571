@@ -1,0 +1,10 @@
+In this assignment I have created an resposive website.
+I have imported favicon from favicon.io, used google fonts, used AI generated audio and video for this website 
+Inside header tag I have used navigation tag and created unordered list which plays role as buttons
+If you press each button it will navigate itself to different page I used class search and created CSS folder to design it.
+All the reminding tasks like creating table is inside section id = "table"
+I have added canvas link
+Created a table
+Added video clip and audio which is AI generated
+In class div I have created footer with telephone number and details.
+The mail id is added in a way that it redirects by mailto.
